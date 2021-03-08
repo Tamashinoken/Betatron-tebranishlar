@@ -1,0 +1,51 @@
+\documentclass[14pt]{article}
+\usepackage{amsmath}
+\usepackage{geometry}
+\linespread{1.3}
+\geometry{
+			left=3cm,
+			right=1.5cm,
+			top=2.5cm,
+			bottom=2cm}
+\usepackage{hyperref}
+\begin{document}
+	\section{$R(\varphi)$ va $R_{e}(\varphi)$ tayanch koordinatalar atrofidagi betatron tebranishlar}
+	
+	\hspace{0.4cm}
+	Zarraning harakatini silindrik koordinatalar sistemasida $r,\ \varphi,\ z$ ko`rib chiqamiz. Soddalik uchun zarra $z = 0$ tekislikda harakatlanmoqda deb qaraymiz. Shuningdek, tezlatuvchi tirqishlarning kengligi e'tiborga olinmaydigan darajada kichik va radial tarzda joylashgan, deb hisoblaymiz. Bu holda zarraning tirqishdan tashqari boshqa nuqtalardagi harakat tenglamasi quyidagi ko`rinishda bo`ladi:
+	\begin{equation}
+	\frac{d\textbf{p}}{dt} = \frac{e}{c}\left(\textrm{\textbf{v}}\times\mathbf{H}\right)
+	\label{1.1}
+	\end{equation}
+	Chegaraviy shartlar esa quyidagicha bo`ladi:
+	
+	\begin{equation}
+	\Delta p = \sqrt{(m+m_{0})(W+\Delta W)} - \sqrt{(m+m_{0})W},\ \ \ \Delta p_{r} = 0,\ \ \ \Delta r = 0
+	\label{1.2}
+	\end{equation}
+
+	bu yerda $W = (m+m_{0})^{-1}p^{2}$ -- kinetik energiya; $\Delta W$ -- energiya o`zgarishi. \eqref{1.2}-tenglamada $\Delta p$ uchun yozilgan ifodada $\Delta m/m$ tartibidagi juda kichik tuzatma kiritilgan. 
+	
+	\eqref{1.2} - tenglamadagi ikkinchi chegaraviy shartni quyidagi ifoda bilan almashtirish mumkin:
+	
+$$
+	\left(
+	\frac{p_{r}}{p_{\varphi}}
+	\right)_{j_{+}} = 
+	\left[1+
+		\left[
+		\frac{2\Delta p}{p} + \left(\frac{\Delta p}{p}
+		\right)^{2}
+		\right]
+		\left[
+		1+ \left(\frac{p_{r}}{p_{\varphi}}
+		\right)^{2}
+		\right]	
+\right]^{-1/2}_{j}\cdot
+\left(
+\frac{p_{r}}{p_{\varphi}}
+\right)
+	$$
+	
+	bu yerda $j$ -- tezlashtiruvchi tirqishning tartib raqami, $j$ va $j_{+}$ indekslar mos holda kirish va chiqishdagi qiymatlarni ifodalaydi. Masalan, $\Delta p_{j} = p_{j_{+}}-p_{j}$
+\end{document}
